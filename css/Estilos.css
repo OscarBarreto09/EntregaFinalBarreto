@@ -136,6 +136,30 @@
     transition: all 0.6s ease-out;
     transform: scale(1, 1);
   }
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos-titulo1{
+    margin-top: 2vw;
+    color: #2DB661;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifL;
+    font-size: 8pt;
+    font-style: italic;
+}
+.productos-titulo-pincipal{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #2DB661;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+  /*Media Queries*/
 
 @media (min-width:768px){
     .nav-link{
