@@ -327,6 +327,46 @@
     transition: all 0.6s ease-out;
     transform: scale(1, 1);
 }
+
+/*Botones Pagina Proteinas*/
+.btn-comprar{
+    margin-top: 15px;
+    background: #2DB661;
+    color: white;
+    border: #2DB661; 
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+.btn-comprar:hover {
+    color: black;
+    font-weight: 700;
+  }
+.btn-comprar::after {
+    content: "";
+    background: #009CA5;
+    position: absolute;
+    z-index: -1;
+    padding: 10px 30px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+  }
+.btn-comprar:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+  }
+
+
 /*Informacion footer*/
 
 .footer{
@@ -491,51 +531,3 @@
         font-weight: 300;
     }
 }
-/*
-.info-footer{
-    display: flex;
-    flex-direction: column;
-}
-.whatsapp-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 150px;
-}
-.correo-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 150px;
-}
-.location-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 150px;
-}
-
-.logos-footer{
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.facebook-footer{
-    width: 40px;
-    height: 40px;
-    border: 2px solid #05CF9F;
-}
-.Instagram-footer{
-    width: 40px;
-    height: 40px;
-    border: 2px solid #05CF9F;
-}
-.Twitter-footer{
-    width: 40px;
-    height: 40px;
-    border: 2px solid #05CF9F;
-}
-.Imagen{
-    width: 500px;
-    height: auto;
-    border: 2px solid #05CF9F;
-}
-*/
