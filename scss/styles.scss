@@ -1,32 +1,47 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&family=Ubuntu:wght@300;500;700&display=swap');
 
+@import "contacto";
+
+$color-primario: #009CA5;
+
+@mixin formato-fondo{ 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;    
+}
+
+@mixin formato-header{
+    width: 20px;
+    height: 20px;
+    border-radius: 150px;
+}
 *{
     margin: 0;
     padding: 0;
 }
 .fondo{
     background-image: url('../assets/fondo2.jpg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;    
+    @include formato-fondo;
+}
+.fondo-creatinas{
+    background-image: url('../assets/fondo-creatina.jpg');
+    @include formato-fondo;
+
+}
+.fondo-aminoacidos{
+    background-image: url('../assets/Aminoacidos_BCAA_1.jpg');
+    @include formato-fondo;
 }
 .facebook-header{
-    width: 20px;
-    height: 20px;
-    border-radius: 150px;
+    @include formato-header;
 }
 .Instagram-header{
-    width: 20px;
-    height: 20px;
-    border-radius: 150px;
+    @include formato-header;
 }
 .twitter-header{
-    width: 20px;
-    height: 20px;
-    border-radius: 150px;
+    @include formato-header;
 }
 .nav-link{
     color: #2DB661;
@@ -433,7 +448,6 @@
     background-color: rgba(128, 128, 128, 0.314);
     color: white;
 }
-
 
 
 

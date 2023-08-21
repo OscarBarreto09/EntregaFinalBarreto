@@ -1,122 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be Strong</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link
-    rel="shortcut icon"
-    href="/Multimedia/proteina.png"
-    type="image/x-icon"/>
-    <link rel="stylesheet" href="../css/Estilos.css">
-</head>
-<body>
-  <header>
-    <section class="informacion">
-      <article class="logos">
+      rel="shortcut icon"
+      href="../assets/proteinalogo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+      <header>
+        <nav class="navbar bg-secondary" style="--bs-bg-opacity: .331">
+          <div class="container-fluid justify-content-start gap-4">
+            <img
+              class="facebook-header"
+              src="../assets/facebook.png"
+              alt="Facebook logo"
+            />
+            <img
+              class="Instagram-header"
+              src="../assets/instagram.png"
+              alt="Instagram logo"
+            />
+            <img
+              class="twitter-header"
+              src="../assets/gorjeo.png"
+              alt="Twitter logo"
+            />
+          </div>
+        </nav>
+        <nav class="navbar">
+          <div class="container-fluid justify-content-end gap-5">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Proteinas.html">Proteinas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Creatinas.html">Creatinas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Aminoacidos.html">Aminoacidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Personal Training</a>
+              </li>
+            </ul></nav>
+        </div>
+      </header>
+
+
+      <!--Jumbotron-->
+
+      <section class="jumbotron-contacto">
+        <div>
+        <h1 class="jumbotron-titulo-pincipal">ENTRENAMIENTO PERSONALIZADO</h1>
+        <p class="jumbotron-parrafo-contacto">
+          ¡Alcanza tus metas de fitness con nuestro entrenamiento personalizado!
+                Nuestro equipo de expertos en acondicionamiento físico está listo para
+                diseñar un programa adaptado específicamente a tus necesidades y
+                objetivos. Ya sea que desees perder peso, ganar masa muscular o
+                mejorar tu resistencia, nuestros entrenadores te guiarán en cada paso
+                del camino. Obtendrás rutinas de ejercicios efectivas y variadas,
+                consejos de nutrición personalizados y el apoyo continuo para
+                mantenerte motivado y enfocado. No importa tu nivel de condición
+                física actual, nuestro entrenamiento personalizado te llevará al
+                siguiente nivel. ¡Invierte en ti mismo y descubre todo tu potencial
+                con nuestro programa personalizado hoy mismo!
+        </p>
+      </div>
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_21XVgfLyeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Informacion -->
+
+    <section class="informacion-entrenamiento">
+      <article class="meses">
+        <button class="btn-1">Entrenamiento personalizado</button>
+        <div class="informacion-meses">
+          <p>
+            Elegir un entrenamiento personalizado ofrece una serie de beneficios fundamentales que lo distinguen de los enfoques más genéricos y estandarizados. Al optar por un entrenamiento diseñado específicamente para tus necesidades, objetivos y características individuales, maximizas la eficacia de tus esfuerzos. Un entrenador personalizado tiene la capacidad de evaluar tu nivel de condición física actual, identificar tus metas a corto y largo plazo, considerar cualquier limitación o lesión previa, y crear un plan de entrenamiento adaptado a ti. Esta atención personalizada garantiza que los ejercicios sean adecuados y seguros para tu cuerpo, lo que reduce el riesgo de lesiones y mejora la eficiencia del entrenamiento. Además, un entrenador personal puede ajustar el plan a medida que avanzas, manteniéndolo desafiante y motivador. La supervisión constante y los ajustes específicos aseguran que estés progresando de manera constante hacia tus objetivos, lo que hace que el tiempo y el esfuerzo invertidos en el entrenamiento sean mucho más efectivos. En última instancia, elegir un entrenamiento personalizado te brinda la atención y el enfoque necesarios para lograr resultados tangibles y duraderos de manera más eficiente y segura.
+          </p>
+        </div>
+        <div class="precio">
+          <span>$600.000</span>
+        </div>
+      </article>
+      <article class="form">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-12">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+      </article>
+    </section>
+
+
+    <!--Footer-->
+
+    <footer class="footer mt-5">
+      <article>
+        <img class="bs-logo mt-3 mb-3" src="../assets/bolivar.png"
+          alt="LogoBS"
+        />
+      </article>
+      <section class="d-flex justify-content-around mb-3">
+      <article class="info-footer">
+        <div>
+        <img class="whatsapp-img" src="../assets/llamada-telefonica.png" alt="Whatsapp"/>
+        <span class="informacion-footer">3229473385</span>
+        </div>
+        <div>
+          <img class="correo-img" src="../assets/gmail.png" alt="Correo"/>
+          <span class="informacion-footer">proteinas@bestrong.com</span>
+        </div>
+        <div>
+          <img class="location-img" src="../assets/marcador-de-posicion.png" alt="Location"/>
+          <span class="informacion-footer">cra 199b # 1664 a 803</span>
+        </div>
+      </article>
+      <article class="logos-footer">
         <img
-          class="facebook-header"
+          class="facebook-footer"
           src="../assets/facebook.png"
           alt="Facebook logo"
         />
         <img
-          class="Instagram-header"
+          class="Instagram-footer"
           src="../assets/instagram.png"
           alt="Instagram logo"
         />
         <img
-          class="twitter-header"
+          class="Twitter-footer"
           src="../assets/gorjeo.png"
           alt="Twitter logo"
         />
       </article>
-      <article class="telefono-correo">
-        <span>#56156156156</span>
-        <span>pepitoperez@bestrong.com</span>
-      </article>
     </section>
-    <nav>
-      <h1 class="be-strong-proteins">Be Strong Proteins</h1>
-      <ul class="menu-navegador">
-        <li><a class="menu home" href="../index.html">Home</a></li>
-        <li>
-          <a
-            class="menu proteinas"
-            href="./Proteinas.html"
-            >Proteinas</a
-          >
-        </li>
-        <li>
-          <a
-            class="menu creatinas"
-            href="./Creatinas.html"
-            >Creatinas</a
-          >
-        </li>
-        <li>
-          <a
-            class="menu aminoacidos"
-            href="./Aminoacidos.html"
-            >Aminoacidos</a
-          >
-        </li>
-        <li>
-          <a
-            class="menu contactos"
-            href="#"
-            >Contacto</a
-          >
-        </li>
-      </ul>
-    </nav>
-  </header>
-      <section>
-        <h1>Contacto</h1>
-      </section>
-      <footer>
-        <section>
-          <article>
-            <img src="../assets/bolivar.png" alt="LogoBS">
-          </article>
-          <article>
-            <img src="../assets/llamada-telefonica.png" alt="Whatsapp">
-            <h6>135156456</h6>
-            <img src="../assets/gmail.png" alt="Correo">
-            <h6>kjhdaskjh@lkslkj.com</h6>
-            <img src="../assets/marcador-de-posicion.png" alt="Location">
-            <h6>cra 199b # 1664 a 803</h6>
-          </article>
-          <article>
-            <img
-            class="facebook-footer"
-            src="../assets/facebook.png"
-            alt="Facebook logo"/>
-          <img
-            class="Instagram-footer"
-            src="../assets/instagram.png"
-            alt="Instagram logo"
-          />
-          <img
-            class="Twitter-footer"
-            src="../assets/gorjeo.png"
-            alt="Twitter logo"
-          />
-          </article>
-          <article>
-            <h5>Suscribete</h5>
-            <div>
-              <form action="datos.php" method="post">
-                <label for="">Nombre</label>
-                <input type="text" name="nombre">
-                <label for="Email">Email</label>
-                <input type="email" name="Email" placeholder="bestrong@bestrong.com">
-              </form>
-            </div>
-            <div>
-              <input type="submit" value="Enviar Informacion">
-            </div>
-          </article>
-        </section>
-      </footer>
-</body>
+      <div class="rights">Rights Reserved®</div>
+    </footer>
+  </section>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
+
