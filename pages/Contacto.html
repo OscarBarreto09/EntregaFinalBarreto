@@ -13,56 +13,56 @@
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-      <header>
-        <nav class="navbar bg-secondary" style="--bs-bg-opacity: .331">
-          <div class="container-fluid justify-content-start gap-4">
-            <img
-              class="facebook-header"
-              src="../assets/facebook.png"
-              alt="Facebook logo"
-            />
-            <img
-              class="Instagram-header"
-              src="../assets/instagram.png"
-              alt="Instagram logo"
-            />
-            <img
-              class="twitter-header"
-              src="../assets/gorjeo.png"
-              alt="Twitter logo"
-            />
+
+
+        <!--NavBar-->
+
+      <section class="fondo">
+        <header>
+          <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Be Strong</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link link-success" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-success" href="Proteinas.html">Proteinas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link link-success" href="Creatinas.html">Creatinas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-success" href="Aminoacidos.html">Aminoacidos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-success" href="Contacto.html">Personal Training</a>
+                    </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </nav>
-        <nav class="navbar">
-          <div class="container-fluid justify-content-end gap-5">
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Proteinas.html">Proteinas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Creatinas.html">Creatinas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Aminoacidos.html">Aminoacidos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Personal Training</a>
-              </li>
-            </ul></nav>
-        </div>
       </header>
 
 
-      <!--Jumbotron-->
 
-      <section class="jumbotron-contacto">
-        <div>
-        <h1 class="jumbotron-titulo-pincipal">ENTRENAMIENTO PERSONALIZADO</h1>
-        <p class="jumbotron-parrafo-contacto">
-          ¡Alcanza tus metas de fitness con nuestro entrenamiento personalizado!
+      <!--Jumbotron-->
+      <section class="jumbotron-contacto p-5">
+        <div class="jumbotron-parrafo-contacto">
+          <h1>ENTRENAMIENTO PERSONALIZADO</h1>
+          <p class="parrafo-contacto">
+            ¡Alcanza tus metas de fitness con nuestro entrenamiento personalizado!
                 Nuestro equipo de expertos en acondicionamiento físico está listo para
                 diseñar un programa adaptado específicamente a tus necesidades y
                 objetivos. Ya sea que desees perder peso, ganar masa muscular o
@@ -73,16 +73,18 @@
                 física actual, nuestro entrenamiento personalizado te llevará al
                 siguiente nivel. ¡Invierte en ti mismo y descubre todo tu potencial
                 con nuestro programa personalizado hoy mismo!
-        </p>
-      </div>
-      <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_21XVgfLyeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </section>
+          </p>
+        </div>
+        <div class="video">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/_21XVgfLyeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+
+
 
     <!-- Informacion -->
 
-    <section class="informacion-entrenamiento p-5">
+    <section class="informacion-entrenamiento">
       <article class="meses">
         <button class="btn-1">Entrenamiento personalizado</button>
         <div class="informacion-meses">
@@ -94,7 +96,7 @@
           <span>$600.000</span>
         </div>
       </article>
-      <article class="form container col-md-4">
+      <article class="form container col-md-8 col-lg-5">
         <form>
           <div class="form-row">
             <div class="form-group col-md-12">
@@ -188,7 +190,7 @@
     </section>
       <div class="rights">Rights Reserved®</div>
     </footer>
-  </section>
+  </div>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>

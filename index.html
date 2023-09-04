@@ -15,47 +15,47 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+
+
+    <!--NavBar-->
+
+
     <section class="fondo">
       <header>
-        <div class="navbar bg-secondary" style="--bs-bg-opacity: .331">
-          <div class="container-fluid justify-content-start gap-4">
-            <img
-              class="facebook-header"
-              src="./assets/facebook.png"
-              alt="Facebook logo"
-            />
-            <img
-              class="Instagram-header"
-              src="./assets/instagram.png"
-              alt="Instagram logo"
-            />
-            <img
-              class="twitter-header"
-              src="./assets/gorjeo.png"
-              alt="Twitter logo"
-            />
+        <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Be Strong</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link link-success" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-success" href="./pages/Proteinas.html">Proteinas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-success" href="./pages/Creatinas.html">Creatinas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-success" href="./pages/Aminoacidos.html">Aminoacidos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-success" href="./pages/Contacto.html">Personal Training</a>
+                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <nav class="navbar">
-          <div class="container-fluid justify-content-end gap-5">
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/Proteinas.html">Proteinas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/Creatinas.html">Creatinas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/Aminoacidos.html">Aminoacidos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/Contacto.html">Personal Training</a>
-              </li>
-            </ul></nav>
-        </div>
+      </nav>
       </header>
 
       <!--Jumbotron-->
